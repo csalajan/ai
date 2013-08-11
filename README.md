@@ -12,8 +12,5 @@ Features
 
 Installation
 ============
-
-This project requires the Wolfram Alpha Python library
-* ```sudo pip install wolframalpha```
-
+```pip install -r requirements.txt```
 Run ./main.sh and enjoy

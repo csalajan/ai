@@ -74,6 +74,7 @@ if len(res.pods) > 0:
     texts = texts.encode('ascii', 'ignore')
     print texts
 else:
+    # If all else fails, ask Clever Bot
     factory = ChatterBotFactory()
 
     bot1 = factory.create(ChatterBotType.CLEVERBOT)

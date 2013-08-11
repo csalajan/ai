@@ -1,6 +1,6 @@
 #!/bin/bash
 #arecord -d 4 -f cd -t wav file.wav > /dev/null 2>&1
-rec -c 1 -r 22050 file.wav silence 1 0 15% 1 00:00:02 15% 
+rec -c 1 -r 22050 file.wav silence 1 0 35% 1 00:00:02 35% 
 
 sox file.wav file.flac rate 16k
 
